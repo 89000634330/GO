@@ -1,0 +1,35 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 101px;
+}
+
+.footer-social {
+    display: flex;
+    column-gap: 26px;
+    background-size: 50px;
+}
+
+.footer-contacts__address {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 51px;
+    align-items: center;
+}
+
+.footer-contacts__link {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.footer-contacts__gmail {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.footer-contacts__icon {
+    color: #CD06FF;
+}

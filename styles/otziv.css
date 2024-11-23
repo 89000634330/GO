@@ -1,0 +1,30 @@
+.rew-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.rew-list__item {
+    display: flex;
+    column-gap: 20px;
+}
+
+.rew-item__fig {
+    flex-shrink: 0;
+}
+
+.rew-item__img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 11px;
+}
+
+.rew-item__text {
+    padding-top: 52px;
+}
+
+.rew-item__caption {
+    text-align: center;
+}
