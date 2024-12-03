@@ -11,7 +11,38 @@
 <body>
     <header class="header">
         <div class="container">
-            header
+            <div class="header-header">
+                <img src="./img/flex/logo.svg" alt="Go" class="Go" width="280" height="55">
+                    <nav class="header-nav">
+                        <ul class="info-list">
+                            
+                                <li class="info-list__item">
+                                    <a href="#zali">Залы</a>
+                                </li>
+                                               
+                                <li class="info-list__item">
+                                    <a href="#onas">О нас</a>
+                                </li>
+                                                       
+                                <li class="info-list__item">
+                                    <a href="#bron">Бронь</a>
+                                </li>                            
+                                                        
+                                <li class="info-list__item">
+                                    <a href="#otzivi">Отзывы</a>
+                                </li>                           
+                            
+                                <li class="info-list__item">
+                                    <a href="#contacti">Контакты</a>
+                                </li>
+
+                        </ul>
+                    </nav>
+                    <button>
+                        <img src="./img/flex/call-button.png" alt="Go" class="bron-button" width="280" height="55">
+                    </button>
+                
+            </div>
         </div>
     </header>
     <section class="section welcome-section">
@@ -19,12 +50,29 @@
             <div class="banner">
                 <h1 class="banner__title">GAME OVER</h1>
                 <p class="banner__subtitle">Новый формат игр и отдыха</p>
+               
+                <ul class="banner-list">
+                    <li class="banner-list__item-one banner-item-one">
+                        <p class="banner-list__text-one">4</p>
+                        <p class="banner-list__text-two">Тематических зала</p>   
+                    </li>
+                    <li class="banner-list__item-two banner-item-two">
+                        <p class="banner-list__text-three">new</p>
+                        <p class="banner-list__text-four">Новейшая аппаратура</p>   
+                    </li>
+                </ul>
+                <button>
+                    <img class="banner-item__img" src="./img/flex/bron-button.png" alt="Забронировать" width="374" height="80"> 
+                </button>
+                   
             </div>
+            
+
         </div>
     </section>
     <section class="section halls">
         <div class="container">
-            <h2 class="section__title">
+            <h2 class="section__title" id="zali">
                 Наши залы
             </h2>
             <ul class="halls-list">
@@ -62,7 +110,7 @@
 
     <section class="section rezerv">
         <div class="container">
-            <h2 class="section__title">
+            <h2 class="section__title" id="bron">
                 Забронировать
             </h2>
             <form class="rezerv-form" id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
@@ -182,7 +230,7 @@
     </section>
     <section class="section about">
         <div class="container">
-            <h2 class="section__title">
+            <h2 class="section__title" id="onas">
                 О нас
             </h2>
             <div class="block">
@@ -218,7 +266,7 @@
     </section>
     <section class="section otziv">
         <div class="container">
-            <h2 class="section__title">
+            <h2 class="section__title" id="otzivi">
                 Отзывы посетителей
             </h2>
             <ul class="rew-list">
@@ -276,7 +324,7 @@
     </section>
     <footer class="footer">
         <div class="container">
-            <h2 class="section__title">
+            <h2 class="section__title" id="contacti">
                 Контакты
             </h2>
             <ul class="footer-contacts">

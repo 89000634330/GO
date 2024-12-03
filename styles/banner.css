@@ -27,4 +27,84 @@
     font-size: 28px;
     line-height: 50px;
     padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.banner-list {
+    width: 505px;
+    display: flex;
+  
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 150px;
+    
+}
+
+
+
+.banner-list__item-one {
+   width: 193px;
+   height: 209px;
+   
+  
+    
+}
+
+.banner-list__item-two {
+    width: 166px;
+    height: 174px;
+    text-align: center;
+}
+
+.banner-item__caption {
+    
+}
+
+.banner-item__img-one {
+    width: 67px;
+    height: 141px;
+    align-items: center;
+}
+
+.banner-item__img-two {
+    width: 166px;
+    height: 106px;
+}
+
+.banner-list__text-one {
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 141.02px;
+    text-align: center;
+    color: #CD06FF;
+
+
+}
+
+.banner-list__text-two {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner-list__text-three {
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 105.76px;
+    text-transform: uppercase;
+    color: #CD06FF;
+}
+
+.banner-list__text-four {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: center;
+    color: #FFFFFF;
 }
