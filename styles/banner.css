@@ -33,7 +33,7 @@
 
 .banner-list {
     display: flex;
-    width: 505px;
+   
     align-items: center;
     gap: 40px;
     margin-bottom: 150px;
@@ -43,12 +43,12 @@
 
 
 .banner-list__item-one {
-   width: 193px;
+   
    height: 209px;  
 }
 
 .banner-list__item-two {
-    width: 166px;
+   
     height: 174px;
    
     text-align: center;
@@ -102,6 +102,7 @@
 }
 
 .banner-list__text-two {
+    width: 193px;
     font-family: Arial;
     font-size: 30px;
     font-weight: 400;
@@ -123,6 +124,7 @@
 }
 
 .banner-list__text-four {
+    width: 161px;
     font-family: Arial;
     font-size: 30px;
     font-weight: 400;
