@@ -30,10 +30,10 @@
     margin-bottom: 30px;
 }
 
+
 .banner-list {
-    width: 505px;
     display: flex;
-  
+    width: 505px;
     align-items: center;
     gap: 40px;
     margin-bottom: 150px;
@@ -44,32 +44,50 @@
 
 .banner-list__item-one {
    width: 193px;
-   height: 209px;
-   
-  
-    
+   height: 209px;  
 }
 
 .banner-list__item-two {
     width: 166px;
     height: 174px;
+   
     text-align: center;
+    align-self: self-end;
 }
 
-.banner-item__caption {
-    
+
+
+.banner-item__button-one {
+    width: 280px;
+    height: 55px;
+    border-radius: 10px;
+    border: 3px solid #CD06FF;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
-.banner-item__img-one {
-    width: 67px;
-    height: 141px;
+.banner-item__button-two {
+    width: 374px;
+    height: 80px;
     align-items: center;
+    border-radius: 10px;
+    background-color: #6C0287;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
 }
 
-.banner-item__img-two {
-    width: 166px;
-    height: 106px;
-}
+
+   
+
+
+
 
 .banner-list__text-one {
     font-family: Arial;
@@ -97,7 +115,10 @@
     font-weight: 900;
     line-height: 105.76px;
     text-transform: uppercase;
+    text-align: center;
+    
     color: #CD06FF;
+    
 }
 
 .banner-list__text-four {
@@ -108,3 +129,7 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+
+
+
