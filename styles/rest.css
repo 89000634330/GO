@@ -1,15 +1,16 @@
 rest {
    
-   
 }
 
 .recreation {
-   
-   
+    
 }
 
 .recreation__article {
+    width: 980px;
+    margin: 0 auto;
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 .recreation__title {
@@ -33,4 +34,15 @@ rest {
     background-repeat: no-repeat;
     width: 380px;
     height: 228px;
+}
+
+
+.recreation-list__figure {
+    position: relative;
+}
+
+.recreation-list__figcaption {
+    position: absolute;
+    left: 40px;
+    top: 166px;
 }

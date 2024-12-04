@@ -15,6 +15,19 @@
     height: 762px;
 }
 
+.banner::before {
+    position: absolute;
+    top: 669px;
+    left: 500px;
+    right: 0;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../img/flex/down.png);
+    display: block;
+    width: 97px;
+    height: 97px;
+}
+
 .banner__title {
     font-weight: 900;
     font-size: 150px;
@@ -30,32 +43,22 @@
     margin-bottom: 30px;
 }
 
-
 .banner-list {
     display: flex;
-   
     align-items: center;
     gap: 40px;
     margin-bottom: 150px;
-    
 }
 
-
-
 .banner-list__item-one {
-   
    height: 209px;  
 }
 
 .banner-list__item-two {
-   
     height: 174px;
-   
     text-align: center;
     align-self: self-end;
 }
-
-
 
 .banner-item__button-one {
     width: 280px;
@@ -84,12 +87,6 @@
     color: #FFFFFF;
 }
 
-
-   
-
-
-
-
 .banner-list__text-one {
     font-family: Arial;
     font-size: 100px;
@@ -97,8 +94,6 @@
     line-height: 141.02px;
     text-align: center;
     color: #CD06FF;
-
-
 }
 
 .banner-list__text-two {
@@ -118,9 +113,7 @@
     line-height: 105.76px;
     text-transform: uppercase;
     text-align: center;
-    
     color: #CD06FF;
-    
 }
 
 .banner-list__text-four {
