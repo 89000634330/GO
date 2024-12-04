@@ -1,0 +1,36 @@
+rest {
+   
+   
+}
+
+.recreation {
+   
+   
+}
+
+.recreation__article {
+    padding-left: 100px;
+}
+
+.recreation__title {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.recreation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recreation-list__item {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+}
