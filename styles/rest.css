@@ -1,10 +1,6 @@
-rest {
-   
-}
+rest {}
 
-.recreation {
-    
-}
+.recreation {}
 
 .recreation__article {
     width: 980px;
@@ -36,7 +32,6 @@ rest {
     height: 228px;
 }
 
-
 .recreation-list__figure {
     position: relative;
 }
@@ -45,4 +40,11 @@ rest {
     position: absolute;
     left: 40px;
     top: 166px;
+}
+
+.recreation-list__item:hover {
+    transition-duration: 200ms;
+    transition-property: width, height;
+    transition-timing-function: linear;
+    transform: scale(1.1);
 }

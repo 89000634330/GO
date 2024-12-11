@@ -3,6 +3,14 @@
     height: 823px;
 }
 
+.banner-link {
+    position: absolute;
+   
+    left: 539px;
+    bottom: 73px;
+    z-index: 5;
+}
+
 .banner:after {
     position: absolute;
     right: 0;
@@ -15,15 +23,8 @@
     height: 762px;
 }
 
-.banner::before {
-    position: absolute;
-    top: 669px;
-    left: 500px;
-    right: 0;
-    content: "";
-    background-repeat: no-repeat;
-    background-image: url(../img/flex/down.png);
-    display: block;
+
+.banner-img {
     width: 97px;
     height: 97px;
 }
@@ -51,7 +52,7 @@
 }
 
 .banner-list__item-one {
-   height: 209px;  
+    height: 209px;
 }
 
 .banner-list__item-two {
@@ -76,7 +77,6 @@
 .banner-item__button-two {
     width: 374px;
     height: 80px;
-    align-items: center;
     border-radius: 10px;
     background-color: #6C0287;
     font-family: Arial;
@@ -126,6 +126,54 @@
     color: #FFFFFF;
 }
 
+.banner-item__button-one:hover {
+    background-color: #6C0287;
+    border-color: 3px solid #6C0287;
+    color: #FFFFFF;
+}
 
+.banner-item__button-one:active {
+    background-color: #640AA3;
+    border-color: 1px solid #000000;
+    color: #FFFFFF;
+}
 
+.banner-item__button-one:focus {
+    background-color: #6C0287;
+    color: #FFFFFF;
+}
 
+.banner-item__button-two:hover {
+    background-color: #840AA3;
+    color: #FFFFFF;
+}
+
+.banner-item__button-two:active {
+    background-color: #640AA3;
+    color: #FFFFFF;
+}
+
+.banner-item__button-two:focus {
+    background-color: #840AA3;
+    color: #FFFFFF;
+}
+
+.banner-link:hover {
+    background-color: #FFFFFF;
+    border-color: 1px solid #FFFFFF;
+    color: #6C0287;
+    border-radius: 50px;
+
+    
+}
+.banner-link:active {
+    background-color: #CD06FF;
+    border-color: 1px solid #CD06FF;
+    color: #FFFFFF;
+}
+
+.banner-link:focus {
+    background-color: #C4C4C4;
+    border-color: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}

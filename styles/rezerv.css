@@ -1,6 +1,155 @@
-.rezerv-form {}
+.rezerv {
+    width: 1440px;
+    background-color: #440F51;
+    margin: 0 auto;
+}
+
+.bron-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
 
 .rezerv-form__btn {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
     background-color: white;
-    color: black;
+    color: #6C0287;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rezerv__subtitle {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.rezerv-kit {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.bron {
+    display: flex;
+    column-gap: 50px;
+}
+
+.rezerv-list {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.rezerv-list2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-zal {
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    gap: 60px;
+    background-color: #FFFFFF;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center; 
+}
+
+.rezerv__checkbox {
+    
+}
+
+.bron__date {
+    width: 134px;
+    height: 52px;
+    top: 3516px;
+    left: 230px;
+   
+      
+}
+.che {
+    width: 21px;
+    height: 15px;
+    top: 3637px;
+    left: 503px;
+    angle: 180 deg;
+    background-color: #211E1E;
+}
+
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+.rezerv-list2 {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.3px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.rezerv-form__btn:hover {
+    background-color: #EADEED;
+    border-color: 3px solid #6C0287;
+    color: #6C0287;
+}
+
+.rezerv-form__btn:active {
+    background-color: #EADEED;
+    color: #6C0287;
+}
+
+.rezerv-form__btn:focus {
+    background-color: #FFFFFF;
+    border-color: 3px solid #6C0287;
+    color: #6C0287;
+}
+
+.button-zal:hover {
+    background-color: #EADEED;
+    border-color: 3px solid #640AA3;
+    color: #000000;
+}
+
+.button-zal:active {
+    background-color: #6C0287;
+    border-color: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.button-zal:focus {
+    background-color: #FFFFFF;
+    border-color: 3px solid #640AA3;
+    color: #000000;
+}
+
+.checkbox:focus {
+    background-color: #FFFFFF;
+    border-color: 1px solid #CD06FF;
+    color: #FFFFFF;
 }

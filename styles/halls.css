@@ -2,18 +2,21 @@
 
 .halls-list {
     display: flex;
-    flex-direction: column;
-    row-gap: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+
 }
 
 .halls-list__item {
     background-repeat: no-repeat;
-    height: 710px;
-    width: 100%;
+    width: 580px;
+    height: 349px;
+    background-size: cover;
 }
 
 .vibes-hall {
     background-image: url(../img/vibes.png);
+
 }
 
 .neon-style-hall {
@@ -25,7 +28,7 @@
 }
 
 .wild-west-hall {
-    background-image: url(../img/star_wars.png);
+    background-image: url(../img/wild_west.png);
 }
 
 .halls-list__link {
