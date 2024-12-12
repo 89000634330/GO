@@ -42,10 +42,10 @@
     background-repeat: no-repeat;
     width: 46px;
     height: 46px;
-  
+    background-image: url(../img/open-purple.svg);
 }
 
-    .question:hover {
+.question:nth-child(odd)>p:after:hover {
     background-color: var(--main-color, #fff);
     border-color: 1px solid var(--main-menu-bg, #6C0287);
     color: var(--main-menu-bg, #6C0287);
