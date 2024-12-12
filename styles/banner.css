@@ -5,7 +5,6 @@
 
 .banner-link {
     position: absolute;
-   
     left: 539px;
     bottom: 73px;
     z-index: 5;
@@ -21,12 +20,6 @@
     display: block;
     width: 675px;
     height: 762px;
-}
-
-
-.banner-img {
-    width: 97px;
-    height: 97px;
 }
 
 .banner__title {
@@ -163,8 +156,6 @@
     border-color: 1px solid var(--main-color, #fff);
     color: var(--main-menu-bg, #6C0287);
     border-radius: 50px;
-
-    
 }
 .banner-link:active {
     background-color: var(--main-purple-light, #CD06FF);
@@ -176,4 +167,23 @@
     background-color: var(--main-silver, #C4C4C4);
     border-color: 1px solid var(--main-color, #fff);
     color: var(--main-color, #fff);
+}
+
+.info-list__item:hover {
+    background-color: var(--main-selago, #EADEED);
+    border-color: 3px solid #640AA3;
+    color: var(--main-dark, #1b1a1b);
+    border-radius: 10px;
+}
+
+.info-list__item:active {
+    background-color: var(--main-menu-bg, #6C0287);
+    border-color: 3px solid var(--main-color);
+    color: var(--main-color, #fff);
+}
+
+.info-list__item:focus {
+    background-color: var(--main-color, #fff);
+    border-color: 3px solid #640AA3;
+    color: var(--main-dark, #1b1a1b);
 }
