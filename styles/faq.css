@@ -14,19 +14,19 @@
 }
 
 .question__text {
-    background-color: #fff;
+    background-color: var(--main-color, #fff);
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;
-    color: black;
+    color: var(--main-dark, #1b1a1b);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .question:nth-child(even)>p {
-    background-color: purple;
-    color: #fff;
+    background-color: var(--main-menu-bg, #6C0287);
+    color: var(--main-color, #fff);
 }
 
 .question>p::after {
@@ -46,13 +46,13 @@
 }
 
     .question:hover {
-    background-color: #FFFFFF;
-    border-color: 1px solid #6C0287;
-    color: #6C0287;
+    background-color: var(--main-color, #fff);
+    border-color: 1px solid var(--main-menu-bg, #6C0287);
+    color: var(--main-menu-bg, #6C0287);
 }
 
 .question>p::after:active {
-    background-color: #FFFFFF;
-    border-color: 2px solid #FFFFFF;
-    color: #FFFFFF;
+    background-color: var(--main-color, #fff);
+    border-color: 2px solid var(--main-color, #fff);
+    color: var(--main-color, #fff);
 }

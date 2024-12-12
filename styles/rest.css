@@ -15,7 +15,7 @@ rest {}
     font-weight: 700;
     line-height: 50px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--main-color, #fff);
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -42,9 +42,13 @@ rest {}
     top: 166px;
 }
 
-.recreation-list__item:hover {
+.recreation-list {
     transition-duration: 200ms;
     transition-property: width, height;
+}
+
+.recreation-list__item:hover {
     transition-timing-function: linear;
+    transition-delay: 0.3s;
     transform: scale(1.1);
 }

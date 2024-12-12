@@ -35,7 +35,7 @@
 }
 
 .footer-contacts__icon {
-    color: #CD06FF;
+    color: var(--main-purple-light, #CD06FF);
 }
 
 .footer__developers {
@@ -65,14 +65,14 @@
 }
 
 .footer-social__item:hover {
-    background-color: #EADEED;
+    background-color: var(--main-selago, #EADEED);
     border-radius: 25px;
 }
 
 .footer-social__item:active {
-    background-color: #CD06FF;
+    background-color: var(--main-purple-light, #CD06FF);
 }
 
 .footer-social__item:focus {
-    background-color: #EADEED;
+    background-color: var(--main-selago, #EADEED);
 }
