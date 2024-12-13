@@ -7,11 +7,9 @@
 .bron-btn {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-
 }
 
-.rezerv-form__btn {
+.bron-btn__btn {
     width: 300px;
     height: 60px;
     border-radius: 10px;
