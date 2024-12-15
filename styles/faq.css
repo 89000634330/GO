@@ -30,29 +30,35 @@
 }
 
 .question>p::after {
-    content: "";
-    background-repeat: no-repeat;
-    width: 46px;
-    height: 46px;
-    background-image: url(../img/open.svg);
+    content: "";    
+    background-repeat: no-repeat;    
+    width: 46px;    
+    height: 46px;    
+    background-image: url(../img/open.svg);    
+    transition: 0.3s ease-in-out;}
+/*violet*/
+.question>p:hover::after {
+    background-image: url(../img/open-hover.svg);
 }
 
+.question>p:active::after {
+    background-image: url(../img/close-active.svg);
+}
+
+/**/
 .question:nth-child(odd)>p:after {
-    content: "";
-    background-repeat: no-repeat;
-    width: 46px;
-    height: 46px;
+    content: "";    
+    background-repeat: no-repeat;    
+    width: 46px;    
+    height: 46px;    
     background-image: url(../img/open-purple.svg);
 }
-
-.question:nth-child(odd)>p:after:hover {
-    background-color: var(--main-color, #fff);
-    border-color: 1px solid var(--main-menu-bg, #6C0287);
-    color: var(--main-menu-bg, #6C0287);
+/*Другой ховер*/
+.question:nth-child(odd)>p:hover:after {
+    background-image: url(../img/open-purple-hover.svg);    
 }
 
-.question>p::after:active {
-    background-color: var(--main-color, #fff);
-    border-color: 2px solid var(--main-color, #fff);
-    color: var(--main-color, #fff);
+.question:nth-child(odd)>p:active:after {
+    background-image: url(../img/close-purple-active.svg);    
 }
+

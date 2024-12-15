@@ -8,6 +8,14 @@
     left: 539px;
     bottom: 73px;
     z-index: 5;
+    border-radius: 50px;
+    
+}
+
+
+.banner-link>svg {
+    fill: transparent;
+    transition: .3s;
 }
 
 .banner:after {
@@ -54,7 +62,7 @@
     align-self: self-end;
 }
 
-.banner-item__button-one {
+.button-item {
     width: 280px;
     height: 55px;
     border-radius: 10px;
@@ -67,7 +75,7 @@
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-two {
+.button-item2 {
     width: 374px;
     height: 80px;
     border-radius: 10px;
@@ -119,34 +127,35 @@
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-one:hover {
+.button-item:hover {
     background-color: var(--main-menu-bg, #6C0287);
     border-color: 3px solid var(--main-menu-bg, #6C0287);
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-one:active {
+
+.button-item:active {
     background-color: var(--main-indigo, #640AA3);
     border-color: 1px solid var(--main-dark, #1b1a1b);
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-one:focus {
+.button-item:focus {
     background-color: var(--main-menu-bg, #6C0287);
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-two:hover {
+.button-item2:hover {
     background-color: var(--main-dark-magenta, #840AA3);
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-two:active {
+.button-item2:active {
     background-color: var(--main-indigo, #640AA3);
     color: var(--main-color, #fff);
 }
 
-.banner-item__button-two:focus {
+.button-item2:focus {
     background-color: var(--main-dark-magenta, #840AA3);
     color: var(--main-color, #fff);
 }
@@ -154,36 +163,42 @@
 .banner-link:hover {
     background-color: var(--main-color, #fff);
     border-color: 1px solid var(--main-color, #fff);
-    color: var(--main-menu-bg, #6C0287);
     border-radius: 50px;
+    }
+
+.banner-link:hover>svg {
+    color: var(--main-menu-bg, #6C0287);
 }
-.banner-link:active {
+
+.banner-link:active>svg {
     background-color: var(--main-purple-light, #CD06FF);
     border-color: 1px solid var(--main-purple-light, #CD06FF);
     color: var(--main-color, #fff);
+    border-radius: 50px;
+    
 }
 
-.banner-link:focus {
-    background-color: var(--main-silver, #C4C4C4);
+.banner-link:focus> {
     border-color: 1px solid var(--main-color, #fff);
     color: var(--main-color, #fff);
+   
 }
 
 .info-list__item:hover {
     background-color: var(--main-selago, #EADEED);
-    border-color: 3px solid #640AA3;
+    border-color: 3px solid var( --main-indigo, #640AA3);
     color: var(--main-dark, #1b1a1b);
     border-radius: 10px;
 }
 
 .info-list__item:active {
     background-color: var(--main-menu-bg, #6C0287);
-    border-color: 3px solid var(--main-color);
+    border-color: 3px solid var(--main-color, #fff);
     color: var(--main-color, #fff);
 }
 
 .info-list__item:focus {
     background-color: var(--main-color, #fff);
-    border-color: 3px solid #640AA3;
+    border-color: 3px solid var( --main-indigo, #640AA3);
     color: var(--main-dark, #1b1a1b);
 }
