@@ -72,15 +72,18 @@
 .footer-social__item:hover {
     background-color: var(--main-selago, #EADEED);
     border-radius: 50px;
+    transition: .3s;
 }
 
 .footer-social__item:active {
     background-color: var(--main-purple-light, #CD06FF);
     border-radius: 50px;
+    transition: .6s;
 }
 
 
 .footer-social__item:focus {
     background-color: var(--main-selago, #EADEED);
     border-radius: 50px;
+    transition: .9s;
 }

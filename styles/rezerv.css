@@ -7,7 +7,6 @@
 .bron-btn {
     display: flex;
     justify-content: flex-end;
-    margin-right: 35px;
 }
 
 .bron-btn__btn {
@@ -28,16 +27,19 @@
     background-color: var(--main-selago, #EADEED); 
     border: 3px solid var(--main-menu-bg, #6C0287);
     color: var(--main-menu-bg, #6C0287);
+    transition: .2s;
 }
 
 .bron-btn__btn:active {
     background-color: var(--main-selago, #EADEED); 
+    transition: .2s;
 }
 
 .bron-btn__btn:focus {
     background-color: var(--main-color, #fff);
     border: 3px solid var(--main-menu-bg, #6C0287);
     color: var(--main-menu-bg, #6C0287);
+    transition: .2s;
 } 
 
 .rezerv-form__legend {
@@ -54,7 +56,6 @@
     justify-content: space-around;
     margin-bottom: 60px;
 }
-
 
 fieldset {
     border: none;
@@ -97,19 +98,21 @@ fieldset {
     outline-offset: 3px;    
     outline-width: 3px;    
     outline-color: var(--main-indigo, #640AA3);
+    transition: .3s;
 }
 
 .rooms__label:hover {
     border: 3px solid var(--main-indigo, #640AA3);    
     background-color: var(--main-selago, #EADEED);
+    transition: .6s;
 }
 
 .rooms__label:active {
     background-color: var(--main-indigo, #640AA3);   
     border: 3px solid var(--main-color, #fff);   
     color: var(--main-color);
+    transition: .9s;
 }
-
 
 /* Checked */.rooms__radio_custom:checked+label {
     background-color: var(--main-menu-bg, #6C0287);   
@@ -128,9 +131,9 @@ fieldset {
     gap: 100px;
 }
 
+
 .rezerv-form__kit2 {
-    display: flex;
-    padding-left: 100px;
+
     gap: 50px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -177,7 +180,10 @@ fieldset {
     flex-direction: column;
 }
 
-
+.rezerv-date-time {
+    max-width: 980px;
+    margin: 0 auto;
+}
 
 .rezerv-form__kit2 {
     display: flex;
@@ -186,9 +192,8 @@ fieldset {
 }
 
 .rezerv-form4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 300px;
+    padding-top: 22px;
 }
 
 .rezerv-form5 {
@@ -199,9 +204,79 @@ fieldset {
     margin-bottom: 36px;
 }
 
+.rezerv-form__data {
+    padding: 12px 27px 12px 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #211E1E;
+}
+
+.rezerv-form__time {
+    padding: 12px 27px 12px 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #211E1E;
+}
+
 .rezerv-form6 {
-    display: flex;
     width: 300px;
+}
+
+.rezerv-form7 {
+    width: 280px;
+}
+
+.rezerv-form8 {
+    width: 280px;
+    height: 74px;
+    margin-bottom: 14px;
+}
+
+.rezerv-form9 {
+    width: 280px;
+    height: 74px;
+}
+
+.rezerv-form10 {
+    width: 300px;
+}
+
+.rezerv-form11 {
+    width: 300px;
+    height: 74px;
+    margin-bottom: 14px;
+}
+
+.rezerv-form12 {
+    width: 300px;
+    height: 74px;
+    margin-bottom: 40px;
+}
+
+.rezerv-form__number {
+    padding: 12px 27px 12px 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #211E1E;
+}
+
+.p-text {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 6px;
 }
 
 .rezerv-form__data {
@@ -212,7 +287,7 @@ fieldset {
 .rezerv-form__time {
     width: 134px;
     height: 52px;
-    
+
 }
 
 .rezerv-form__number {
@@ -234,16 +309,16 @@ fieldset {
 .rezerv-form__phone {
     width: 300px;
     height: 52px;
-    margin-bottom: 36px;
-}
-
-.rezerv-form__phone:focus {
-    border: 2px solid var(--main-purple-light, #CD06FF);
 }
 
 .rezerv-form__mail {
     width: 300px;
     height: 52px;
+}
+
+.rezerv-form__phone:focus {
+    border: 2px solid var(--main-purple-light, #CD06FF);
+    transition: .3s;
 }
 
 .real-radio {
@@ -291,10 +366,6 @@ fieldset {
 .real-radio:focus + .custom-radio {
     border: 1px solid var(--main-purple-light, #CD06FF);
 }
-
-
-
-
 
 .real-checkbox {
    width: 0;

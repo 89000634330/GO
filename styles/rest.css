@@ -78,31 +78,31 @@
 
 .recreation-list__item1:hover {
     transition-timing-function: linear;
-    transition: 0.3s;
+    transition: .3s;
     transform: scale(1.1);
 }
 .recreation-list__item2:hover {
     transition-timing-function: linear;
-    transition: 0.6s;
+    transition: .6s;
     transform: scale(1.1);
 }
 .recreation-list__item3:hover {
     transition-timing-function: linear;
-    transition: 0.6s;
+    transition: .3s;
     transform: scale(1.1);
 }
 .recreation-list__item4:hover {
     transition-timing-function: linear;
-    transition: 0.6s;
+    transition: .3s;
     transform: scale(1.1);
 }
 .recreation-list__item5:hover {
     transition-timing-function: linear;
-    transition: 0.6s;
+    transition: .6s;
     transform: scale(1.1);
 }
 .recreation-list__item6:hover {
     transition-timing-function: linear;
-    transition: 0.6s;
+    transition: .3s;
     transform: scale(1.1);
 }
